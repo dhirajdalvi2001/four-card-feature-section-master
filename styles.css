@@ -133,3 +133,60 @@ img {
     margin: 1.8rem 12.5rem 0;
     width: 50px;
 }
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .upper-container {
+        height: 45vh;
+        width: 100vw;
+    }
+
+    .heading1 {
+        width: 80vw;
+        margin: auto;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1.4rem;
+    }
+
+    .bottom-container {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .column {
+        width: 90vw;
+        height: 35vh;
+    }
+
+    .container {
+        width: 80vw;
+        height: 35vh;
+        margin: 0.5rem;
+    }
+
+    .mid-column {
+        width: 90vw;
+        height: 79vh;
+    }
+
+    .main-container {
+        width:100vw;
+        height: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 560px;
+    }
+
+    img {
+        margin: 1.2rem 15rem 0;
+    }
+
+
+}
