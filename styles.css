@@ -134,7 +134,7 @@ img {
     width: 50px;
 }
 
-@media (min-width: 375px) and (max-width: 600px) {
+@media (min-width: 325px) and (max-width: 600px) {
     .upper-container {
         height: 45vh;
         width: 100vw;
