@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+    
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+    
+a {
+    color: hsl(228, 45%, 44%);
+}
+    
+.light {
+    font-weight: 200;
+    opacity: 0.6;
+}
+    
+.bold {
+    font-weight: 600;
+    opacity: 0.75;
+}
+    
+.upper-container {
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+}
+    
+.bottom-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+    
+.heading1 {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+    
+.heading1 p {
+    text-align: center;
+    padding-top: 0.7rem;
+}
+    
+    
+p {
+    width: fit-content;
+    font-size: 0.7rem;
+    opacity: 0.5;
+    line-height: 1.2rem;
+}
+    
+h1 {
+    font-size: 1.5rem;
+    width: fit-content;
+}
+    
+h3 {
+    margin: 1.4rem 1.6rem 0.7rem;
+    width: 50%;
+}
+    
+.main-container {
+    width: 70vw;
+    display: flex;
+}
+    
+.container {
+    width: 19vw;
+    height: 30vh;
+    margin: 0.7rem 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    
+.column {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.mid-column {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+.container p {
+    margin: 0 1.6rem;
+}
+
+.attribution {
+    margin: auto;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 12px;
+}
+
+.cyan {
+    box-shadow: 5px 5px 20px 1px hsla(212, 86%, 64%, 20%), 0 4px hsl(180, 62%, 55%) inset;
+}
+
+.red {
+    box-shadow: 5px 5px 20px 1px hsla(212, 86%, 64%, 20%), 0 4px hsl(0, 78%, 62%) inset;
+}
+
+.orange {
+    box-shadow: 5px 5px 20px 1px hsla(212, 86%, 64%, 20%), 0 4px hsl(34, 97%, 64%) inset;
+}
+
+.blue {
+    box-shadow: 5px 5px 20px 1px hsla(212, 86%, 64%, 20%), 0 4px hsl(212, 86%, 64%) inset;
+}
+
+img {
+    margin: 1.8rem 12.5rem 0;
+    width: 50px;
+}
